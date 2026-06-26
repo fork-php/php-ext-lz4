@@ -27,6 +27,9 @@ PHP_ARG_ENABLE(lz4, whether to enable lz4 support,
 PHP_ARG_WITH(lz4-includedir, for lz4 header,
 [  --with-lz4-includedir=DIR  lz4 header files], no, no)
 
+PHP_ARG_ENABLE(apcu, whether to enable APCu support,
+[  --enable-apcu           Enable APCu support], auto, no)
+
 if test "$PHP_LZ4" != "no"; then
 
   AC_MSG_CHECKING([searching for liblz4])
