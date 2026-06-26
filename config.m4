@@ -81,6 +81,7 @@ if test "$PHP_LZ4" != "no"; then
       fi
       AC_MSG_RESULT([not found])
     fi
+  fi
 fi
 
 dnl coverage
